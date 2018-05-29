@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"e3565acd-660a-40fc-8715-bdeb0079d36c.approval_state","label":"1➛Approval State","type":"choice","base_type":"choice"},{"name":"Updated_1.current.inspector","label":"Trigger➛Issue Record➛Inspector","reference":"sys_user","reference_display":"Inspector","type":"reference","base_type":"reference","parent_table_name":"x_232149_safety3_issue","column_name":"inspector"},{"name":"Updated_1.current","label":"Trigger➛Issue Record","reference":"x_232149_safety3_issue","reference_display":"Issue","type":"reference","base_type":"reference"}]</label_cache>
+        <name>Safety Approval</name>
+        <parent_flow display_value="Safety Approval">9ffc3ebadb92130005a0e04a489619b5</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-29 21:43:41</sys_created_on>
+        <sys_id>36ee323edb92130005a0e04a489619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Approval</sys_name>
+        <sys_package display_value="Safety" source="x_232149_safety3">228472bedb52130005a0e04a4896195c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">228472bedb52130005a0e04a4896195c</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_36ee323edb92130005a0e04a489619a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-29 21:43:41</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

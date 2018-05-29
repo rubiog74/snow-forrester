@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci" label="Safety Equipment" max_length="40" name="x_232149_safety3_safety_equipment" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element label="Fire Hose" sequence="0" value="fire hose"/>
+                <element label="Fire Extinguisher" sequence="1" value="fire extinguisher"/>
+                <element label="First Aid Kit" sequence="2" value="first aid kit"/>
+                <element label="Flashlight" sequence="3" value="flashlight"/>
+            </choice>
+        </element>
+    </element>
+</database>

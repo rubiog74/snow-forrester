@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate that the form matches the following condition:
+Short description is not empty
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-29 23:09:00</sys_created_on>
+        <sys_id>523297b6dbd2130005a0e04a489619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="Safety" source="x_232149_safety3">228472bedb52130005a0e04a4896195c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">228472bedb52130005a0e04a4896195c</sys_scope>
+        <sys_update_name>sys_atf_step_523297b6dbd2130005a0e04a489619b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-29 23:09:00</sys_updated_on>
+        <table>x_232149_safety3_issue</table>
+        <test display_value="Safety Application Test">578fcf76dbd2130005a0e04a48961996</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=523297b6dbd2130005a0e04a489619b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>523297b6dbd2130005a0e04a489619b8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-29 23:09:00</sys_created_on>
+        <sys_id>a0725776dbd2130005a0e04a48961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-29 23:09:00</sys_updated_on>
+        <value>x_232149_safety3_issue</value>
+        <variable display_value="">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>523297b6dbd2130005a0e04a489619b8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-29 23:09:00</sys_created_on>
+        <sys_id>ec725776dbd2130005a0e04a48961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-29 23:09:00</sys_updated_on>
+        <value>short_descriptionISNOTEMPTY^EQ</value>
+        <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+</record_update>

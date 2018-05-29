@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Application test used to certify that the Safety applicaiton behaves consistently between upgrades and revision etc.</description>
+        <name>Safety Application Test</name>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-29 22:56:37</sys_created_on>
+        <sys_id>578fcf76dbd2130005a0e04a48961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Application Test</sys_name>
+        <sys_package display_value="Safety" source="x_232149_safety3">228472bedb52130005a0e04a4896195c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">228472bedb52130005a0e04a4896195c</sys_scope>
+        <sys_update_name>sys_atf_test_578fcf76dbd2130005a0e04a48961996</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-29 22:56:37</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=578fcf76dbd2130005a0e04a48961996"/>
+</record_update>

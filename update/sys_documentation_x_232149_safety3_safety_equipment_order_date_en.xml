@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="order_date" label="Ordered" language="en" table="x_232149_safety3_safety_equipment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>order_date</element>
+            <help/>
+            <hint/>
+            <label>Ordered</label>
+            <language>en</language>
+            <name>x_232149_safety3_safety_equipment</name>
+            <plural>Ordered</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 23:37:36</sys_created_on>
+            <sys_id>6bf8d7fadbd2130005a0e04a48961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ordered</sys_name>
+            <sys_package display_value="Safety" source="x_232149_safety3">228472bedb52130005a0e04a4896195c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safety">228472bedb52130005a0e04a4896195c</sys_scope>
+            <sys_update_name>sys_documentation_x_232149_safety3_safety_equipment_order_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 23:37:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
